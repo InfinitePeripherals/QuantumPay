@@ -6,7 +6,7 @@ parent: Getting Started
 has_children: false
 ---
 
-# Getting Started with iOS v2.0.1
+# Getting Started with iOS v2.2.x
 {: .fs-9 .no_toc }
 
 Learn how to set up your iOS app to process payment transactions using QuantumPay.
@@ -134,6 +134,9 @@ The payment engine is the main object that you will interact with to send transa
 ```swift
 do {
     try PaymentEngine.builder()
+        /// Reset and release all old hooks before building a new engine. 
+        /// Optional, but recommended if rebuilding the PaymentEngine.
+        .reset()
         /// The server where the payment is sent to for processing
         .server(server: ServerEnvironment.test)
         /// Specify the username and password that will be used for authentication while registering peripheral devices with the Quantum Pay server. The provided credentials must have Device Administrator permissions. Optional.
