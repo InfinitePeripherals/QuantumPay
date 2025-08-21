@@ -18,9 +18,9 @@ Please contact us for latest SDK.
 
 For a guide on how to set up and use QuantumPay with your application, check out one of the guides below.
 
-- [Getting Started with iOS](https://infiniteperipherals.github.io/QuantumPay/getting-started-ios/getting-started-ios.html)
-- [Getting Started with Android](https://infiniteperipherals.github.io/QuantumPay/getting-started-android/getting-started-android.html)
-- [Getting Started with Xamarin](https://infiniteperipherals.github.io/QuantumPay/getting-started-xamarin/getting-started-xamarin.html)
+- [Getting Started with iOS](https://infiniteperipherals.github.io/QuantumPay/getting-started/ios.html)
+- [Getting Started with Android](https://infiniteperipherals.github.io/QuantumPay/getting-started/android.html)
+- [Getting Started with Xamarin](https://infiniteperipherals.github.io/QuantumPay/getting-started/xamarin.html)
 
 ## Documentation
 
